@@ -5,6 +5,10 @@ permalink: /research/
 author_profile: true
 ---
 
+{% if site.author.googlescholar %}
+  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
+{% endif %}
+
 {% include base_path %}
 
 <p> My research has two primary objectives. Firstly, I aim to generate work that holds significance both academically and in practical business contexts. Secondly, I strive to produce research that is accessible and comprehensible even to non-specialists.<br /></p>
