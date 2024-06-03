@@ -26,13 +26,14 @@
       </div>
     {% endif %}
    
-    <p><b>{{ post.title }}</b><br /></p>
-    
    {% if post.citation %}
-   <p><i>Joint work with {{ post.co-authors }}</i><br /></p>
+   <p><b>{{ post.title }}</b><br />
+   <i>(Joint work with {{ post.co-authors }})</i><br /></p>
+   {% else %}
+   <p><b>{{ post.title }}</b><br /></p>
    {% endif %}
 
-    <p>Abstract: {{ post.abstract }}<br /></p>
+    <p>Abstract: {{ post.abstract }}</p>
 
     <p><a href="{{ post.paper-url }}">Click here for the latest version</a></p>
   
