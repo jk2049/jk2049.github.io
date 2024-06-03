@@ -52,7 +52,7 @@
     <p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></p>
     {% endif %}
      
-    <p>Abstract: {{ abstract }}<br /><a href="{{ post.paperurl }}">Click here for the latest version.</a></p>
+    <p>Abstract: {{ post.abstract }}<br /><a href="{{ post.paper-url }}">Click here for the latest version.</a></p>
   
   </article>
 </div>
