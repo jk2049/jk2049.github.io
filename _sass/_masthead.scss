@@ -50,7 +50,11 @@
   display: block;
   list-style-type: none;
   white-space: nowrap;
-  padding-right: 10em;
+
+  last-child {
+     property: "value";
+     padding-right: 4em;
+  }
 
   &--lg {
     padding-right: 3em;
