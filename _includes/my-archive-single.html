@@ -26,7 +26,11 @@
       </div>
     {% endif %}
    
-    <p>{{ post.title }}<br /></p>
+    <p><b>{{ post.title }}</b><br /></p>
+    
+   {% if post.co-authors %}
+   <p><i>Joint work with {{ post.co-authors }}</i><br /></p>
+   {% endif %}
 
     <p>Abstract: {{ post.abstract }}<br /></p>
 
