@@ -33,8 +33,12 @@
    <p><b>{{ post.title }}</b><br /></p>
    {% endif %}
 
-    <p>Abstract: {{ post.abstract }}<br />
-    <a href="{{ post.paper-url }}">Click here for the latest version</a></p>
-  
+   {% if post.paper-url %}
+   <p>Abstract: {{ post.abstract }}<br />
+   <a href="{{ post.paper-url }}">Click here for the latest version</a></p>
+   {% else %}
+   <p>Abstract: {{ post.abstract }}<br /></p>
+   {% endif %}
+
   </article>
 </div>
