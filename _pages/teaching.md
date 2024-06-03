@@ -1,0 +1,32 @@
+---
+layout: archive
+title: "Teaching"
+permalink: /teaching/
+author_profile: true
+---
+
+{% include base_path %}
+
+<p><b>Information Management - BSc (2023-2024) </b><br />
+<i>Instructor</i><br /></p>
+<i>Evaluation: 4.4/5</i><br /></p>
+
+<p><b>Digital Infrastructure and Business Innovation - BSc (2023-2024) </b><br />
+<i>Instructor</i><br /></p>
+<i>Evaluation: 4.3/5</i><br /></p>
+
+p><b>Thesis Supervision </b> - MSc (2018-2023) </b><br />
+<i>Evaluations: (2018-2019) 4.8/5, (2019-2020) 5/5, (2020-2021) 4.5/5, and (2021-2022) 5/5 </i><br /></p>
+
+p><b>Web Mining and Analytics </b> - MSc (2021-2023) </b><br />
+<i>Instructor</i><br /></p>
+<i>Evaluation: (2021-2022) 4.4/5, (2022-2023) 4.5/5</i><br /></p>
+
+p><b>Big Data and Business Analytics </b> - MSc (2021-2023) </b><br />
+<i>Instructor</i><br /></p>
+
+<p><b>Big Data and Business Analytics </b> - MSc (2019-2020) </b><br />
+<i>Teaching Assistant</i><br /></p>
+
+<p><b>Network Data Analytics </b> - MSc (2018) </b><br />
+<i>Teaching Assistant</i><br /></p>
