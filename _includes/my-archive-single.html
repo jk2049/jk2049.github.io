@@ -28,8 +28,8 @@
    
     <p><b>{{ post.title }}</b><br /></p>
     
-   {% if post.co-authors %}
-   <p><i>Joint work with {{ post.co-authors }}</i><br /></p>
+   {% if post.citation %}
+   <p style="line-height:10px;"><i>Joint work with {{ post.co-authors }}</i><br /></p>
    {% endif %}
 
     <p>Abstract: {{ post.abstract }}<br /></p>
