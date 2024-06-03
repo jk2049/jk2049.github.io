@@ -373,7 +373,7 @@
 
 .toc {
   font-family: $sans-serif-narrow;
-  color: $yellow;
+  color: $gray;
   text-transform: uppercase;
   letter-spacing: 1px;
   background-color: #fff;
@@ -382,7 +382,7 @@
   box-shadow: $box-shadow;
 
   .nav__title {
-    color: red;
+    color: #fff;
     font-size: $type-size-6;
     background: $primary-color;
     border-top-left-radius: $border-radius;
@@ -400,14 +400,14 @@
   a {
     display: block;
     padding: 0.5rem 1rem;
-    color: $blue;
+    color: $gray;
     font-size: $type-size-7;
     font-weight: bold;
     line-height: 1.5;
     border-bottom: 1px solid $border-color;
 
     &:hover {
-      color: green;
+      color: #000;
       background: $lighter-gray;
     }
   }
