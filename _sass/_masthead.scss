@@ -48,16 +48,15 @@
 
 .masthead__menu-item {
   background: green;
-  display: inline-block; /* Change to inline-block to respect text alignment */
+  display: block;
   list-style-type: none;
   white-space: nowrap;
-  text-align: right;
+  float:ref;
 
   &--lg {
-    background: red;
+    background: blue;
     padding-right: 3em;
     font-weight: 700;
-    display: inline-block; /* Change to inline-block to respect text alignment */
-    text-align: left;
+    float:left;
   }
 }
