@@ -20,7 +20,7 @@ author_profile: true
 
 <p><b>Web Mining and Analytics</b> - MSc (2021-2023)<br />
 <i>Instructor</i><br />
-<i>Evaluation: (2021-2022) 4.4/5, (2022-2023) 4.5/5</i><br /></p>
+<i>Evaluations: (2021-2022) 4.4/5, (2022-2023) 4.5/5</i><br /></p>
 
 <p><b>Big Data and Business Analytics</b> - MSc (2021-2023)<br />
 <i>Instructor</i><br /></p>
