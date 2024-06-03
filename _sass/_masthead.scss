@@ -51,10 +51,9 @@
   list-style-type: none;
   white-space: nowrap;
 
-  last-child {
-     property: "value";
-     padding-right: 4em;
-  }
+   &:last-child {
+      padding-right: 4em;
+   }
 
   &--lg {
     padding-right: 3em;
