@@ -17,7 +17,9 @@ author_profile: true
 
 <p> I primarily acquire data for my research through methods such as web scraping and accessing APIs. Additionally, in some cases, I am also incorporating experimental research methods and collaborating with companies.<br /></p>
 
+<p> test1 </p>
 <hr>
+<p> test2 </p>
 
 {% for post in site.publications %}
   {% include my-archive-single.html %}
