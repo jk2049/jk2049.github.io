@@ -7,11 +7,11 @@ author_profile: true
 
 {% include base_path %}
 
-<p><b>Information Management</b> - BSc (2023-2024) <br />
+<p><b>Information Management</b> - BSc (2023-2024)<br />
 <i>Instructor</i><br />
 <i>Evaluation: 4.4/5</i><br /></p>
 
-<p><b>Digital Infrastructure and Business Innovation</b> - BSc (2023-2024) </b><br />
+<p><b>Digital Infrastructure and Business Innovation</b> - BSc (2023-2024)<br />
 <i>Instructor</i><br />
 <i>Evaluation: 4.3/5</i><br /></p>
 
