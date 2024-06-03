@@ -39,7 +39,6 @@
 .masthead__menu {
 
   ul {
-    background: red;
     margin: 0;
     padding: 0;
     clear: both;
@@ -48,6 +47,7 @@
 }
 
 .masthead__menu-item {
+  background: red;
   display: block;
   list-style-type: none;
   white-space: nowrap;
