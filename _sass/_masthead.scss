@@ -48,14 +48,13 @@
 
 .masthead__menu-item {
   background: green;
-  float:left;
   display: block;
   list-style-type: none;
   white-space: nowrap;
 
   &--lg {
     background: blue;
-    padding-right: 3em;
+    padding-right: 15em;
     font-weight: 700;
   }
 }
