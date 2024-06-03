@@ -326,6 +326,7 @@
     display: block;
     padding: 0.125em 0;
     color: inherit;
+    text-align: right;
 
     &:hover {
       text-decoration: underline;
@@ -340,7 +341,6 @@
     font-weight: bold;
     background: $primary-color;
     border-radius: $border-radius;
-    float: right;
 
     &:hover {
       color: #fff;
