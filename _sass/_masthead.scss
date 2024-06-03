@@ -51,12 +51,8 @@
   list-style-type: none;
   white-space: nowrap;
 
-   &:last-child {
-      padding-right: 30em;
-   }
-
   &--lg {
-    padding-right: 3em;
+    padding-right: 12em;
     font-weight: 700;
   }
 }
