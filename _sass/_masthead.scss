@@ -50,9 +50,10 @@
   display: block;
   list-style-type: none;
   white-space: nowrap;
+  padding-right: 10em;
 
   &--lg {
-    padding-right: 32em;
+    padding-right: 3em;
     font-weight: 700;
   }
 }
