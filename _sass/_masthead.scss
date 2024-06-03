@@ -51,10 +51,12 @@
   display: block;
   list-style-type: none;
   white-space: nowrap;
+  text-align: center;
 
   &--lg {
     background: blue;
     padding-right: 15em;
     font-weight: 700;
+    text-align: left;
   }
 }
