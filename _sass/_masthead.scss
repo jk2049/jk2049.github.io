@@ -38,15 +38,23 @@
 
 .masthead__menu {
 
-    float: right;
-    margin-left: 0;
-    margin-right: 0;
-    width: 100%;
+  ul {
+    margin: 0;
+    padding: 0;
     clear: both;
+    list-style-type: none;
+  }
 }
 
 .masthead__menu-item {
+  background: green;
+  display: block;
   list-style-type: none;
   white-space: nowrap;
 
+  &--lg {
+    background: blue;
+    padding-right: 30em;
+    font-weight: 700;
+  }
 }
