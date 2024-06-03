@@ -47,14 +47,12 @@
 }
 
 .masthead__menu-item {
-  background: green;
   display: block;
   list-style-type: none;
   white-space: nowrap;
 
   &--lg {
-    background: blue;
-    padding-right: 30em;
+    padding-right: 3em;
     font-weight: 700;
   }
 }
