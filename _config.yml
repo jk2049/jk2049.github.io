@@ -12,7 +12,7 @@ title                    : "Giannis Kanellopoulos"
 title_separator          : "-"
 name                     : &name "Giannis Kanellopoulos"
 description              : &description "personal description"
-url                      : https://jk2049.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io" https://jk2049.github.io
+url                      : https://www.gianniskanellop.com # the base hostname & protocol for your site e.g. "https://mmistakes.github.io" https://jk2049.github.io
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "jk2049/jk2049.github.io"
 
