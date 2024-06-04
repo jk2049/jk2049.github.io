@@ -2,9 +2,6 @@
 permalink: /about/
 title: "Bio"
 author_profile: true
-redirect_from: 
-  - /about/
-  - /about.html
 ---
 
 <p align="justify"> My research interests lie in platform strategy and consumer behavior with applications in non-fungible tokens (NFTs), recommendation systems, and online streaming. To address my research questions, I employ a mix of methods including machine learning, econometrics, and field experiments. <br /></p>
