@@ -1,0 +1,7 @@
+GOOGLE ANALYTICS TAG
+1) Which Google Analytics file should we look for?. Define the value of the variable:
+D:\Folder\Personal\Website\_config.yml
+2) If statement searching for Google Analytics file. Based on the value of the variable:
+D:\Folder\Personal\Website\_includes\analytics.html
+3) File with Google Analytics code. Content of the file:
+D:\Folder\Personal\Website\_includes\analytics-providers\
