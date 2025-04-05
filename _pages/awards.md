@@ -4,6 +4,8 @@ permalink: /awards/
 author_profile: true
 ---
 
+{% include base_path %}
+
 <p> 2023 - Grant - Erasmus Initiative Societal Impact of AI (AiPact) Spore Fund <br /></p>
 
 <p> 2023 - Best Paper Nominee - International Conference on Information Systems (ICIS) <br /></p>
