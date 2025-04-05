@@ -6,6 +6,8 @@ author_profile: true
 
 {% include base_path %}
 
+<br />
+
 <p align="justify"><b>Information Management</b> - BSc (2023-2024)<br />
 <i>Instructor</i><br />
 <i>Evaluation: 4.4/5</i><br /></p>
