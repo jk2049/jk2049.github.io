@@ -6,7 +6,7 @@ author_profile: true
 
 {% include base_path %}
 
-<p align="justify"> I have two primary research objectives. Firstly, I aim to generate work that holds significance both in academical and in practical business contexts. Secondly, I strive to produce research that is accessible and comprehensible even to non-specialists.<br /></p>
+<p align="justify"> I have two primary research objectives. First, I aim to generate work that holds significance both in academic and in practical business contexts. Second, I strive to produce research that is accessible and comprehensible to a broader audience, including those outside the field. <br /></p>
 
 <p align="justify"> I am currently focusing my research on the domains of non-fungible tokens and dating. My papers have been invited for presentation at various premier venues and have received nominations for best paper (ICIS 2023) and best student paper (WISE 2022). My research pipeline includes further exploration of non-fungible tokens and dating, as well as expansion into the realms of artificial intelligence, online streaming, and real estate.<br /></p>
 
