@@ -6,12 +6,17 @@ author_profile: true
 
 {% include base_path %}
 
-<p> 2023 - Grant - Erasmus Initiative Societal Impact of AI (AiPact) Spore Fund <br /></p>
+<br />
 
-<p> 2023 - Best Paper Nominee - International Conference on Information Systems (ICIS) <br /></p>
+<h3>Grants</h3>
+<ul>
+  <li><strong>2023</strong> - Erasmus Initiative Societal Impact of AI (AiPact) Spore Fund</li>
+  <li><strong>2022</strong> - ERIM PhD 12-Month Contract Extension - Talent Placement Program</li>
+  <li><strong>2020</strong> - ERIM PhD 6-Month Contract Extension - COVID-19 Hardship Program</li>
+</ul>
 
-<p> 2022 - Best Student Paper Nominee - Workshop on Information System Economics (WISE) <br /></p>
-
-<p> 2022 - Grant - ERIM PhD 12-Month Contract Extension - Talent Placement Program <br /></p>
-
-<p> 2020 - Grant - ERIM PhD 6-Month Contract Extension - COVID-19 Hardship Program <br /></p>
+<h3>Paper Nominations</h3>
+<ul>
+  <li><strong>2023</strong> - Best Paper Nominee - International Conference on Information Systems (ICIS)</li>
+  <li><strong>2022</strong> - Best Student Paper Nominee - Workshop on Information System Economics (WISE)</li>
+</ul>
