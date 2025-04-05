@@ -28,10 +28,13 @@
    
    {% if post.co-authors %}
    <p align="justify"><b>{{ post.title }}</b><br />
-   <i>(Joint work with {{ post.co-authors }})</i><br /></p>
+   <i>(Joint work with {{ post.co-authors }})</i><br />
+   <i><p align="justify"><b>{{ post.stage }}</p>
    {% else %}
-   <p align="justify"><b>{{ post.title }}</b><br /></p>
-   {% endif %}   
+   <p align="justify"><b>{{ post.title }}</b><br />
+   <i><p align="justify"><b>{{ post.stage }}</i><br /></p>
+   {% endif %}
+   
 
    {% if post.paper-url %}
    <p align="justify">{{ post.abstract }}<br />
