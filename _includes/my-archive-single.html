@@ -28,7 +28,7 @@
    
    {% if post.abstract %}
      {% if post.co-authors %}
-     <p align="justify"><b>{{ post.title }}</b><br />
+     <p align="justify"><a href="{{ post.paper-url }}"><b>{{ post.title }}</b></a><br />
      <i>(Joint work with {{ post.co-authors }})</i><br />
      <i><b>Current stage: {{ post.stage }}</b></i><br /></p>
      {% else %}
