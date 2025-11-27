@@ -40,11 +40,7 @@
      <i><b>Current stage: {{ post.stage }}</b></i><br /></p>
      {% endif %}
    
-     {% if post.paper-url %}
-     <p align="justify">{{ post.abstract }}<br />
-     {% else %}
      <p align="justify">Abstract: {{ post.abstract }}<br /></p>
-     {% endif %}
 
    {% else %}
      {% if post.co-authors %}
