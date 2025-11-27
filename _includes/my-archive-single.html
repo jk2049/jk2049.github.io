@@ -26,22 +26,40 @@
       </div>
     {% endif %}
    
-   {% if post.co-authors %}
-   <p align="justify"><b>{{ post.title }}</b><br />
-   <i>(Joint work with {{ post.co-authors }})</i><br />
-   <i><b>Current stage: {{ post.stage }}</b></i><br /></p>
-   {% else %}
-   <p align="justify"><b>{{ post.title }}</b><br />
-   <i><b>Current stage: {{ post.stage }}</b></i><br /></p>
-   {% endif %}
+   {% if post.abstract %}
+     {% if post.co-authors %}
+     <p align="justify"><b>{{ post.title }}</b><br />
+     <i>(Joint work with {{ post.co-authors }})</i><br />
+     <i><b>Current stage: {{ post.stage }}</b></i><br /></p>
+     {% else %}
+     <p align="justify"><b>{{ post.title }}</b><br />
+     <i><b>Current stage: {{ post.stage }}</b></i><br /></p>
+     {% endif %}
    
+     {% if post.paper-url %}
+     <p align="justify">{{ post.abstract }}<br />
+     <a href="{{ post.paper-url }}">Click here for the latest version</a><br /></p>
+     {% else %}
+     <p align="justify">Abstract: {{ post.abstract }}<br /></p>
+     {% endif %}
 
-   {% if post.paper-url %}
-   <p align="justify">{{ post.abstract }}<br />
-   <a href="{{ post.paper-url }}">Click here for the latest version</a><br /></p>
    {% else %}
-   <p align="justify">Abstract: {{ post.abstract }}<br /></p>
+     {% if post.co-authors %}
+     <p align="justify"><b>{{ post.title }}</b><br />
+     <i>(Joint work with {{ post.co-authors }})</i><br />
+     <i><b>{{ post.stage }}</b></i><br /></p>
+     {% else %}
+     <p align="justify"><b>{{ post.title }}</b><br />
+     <i><b>{{ post.stage }}</b></i><br /></p>
+     {% endif %}
+
+     {% if post.paper-url %}
+     <a href="{{ post.paper-url }}">Click here for the latest version</a><br /></p>
+     {% else %}
+     {% endif %}
+
    {% endif %}
+
 
   </article>
 </div>
