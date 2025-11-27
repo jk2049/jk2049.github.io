@@ -50,11 +50,11 @@
      <i><b>{{ post.stage }}</b></i><br /></p>
      {% else %}
      <p align="justify"><b>{{ post.title }}</b><br />
-     <i><b>{{ post.stage }}</b></i><br /></p>
+     <i><b>{{ post.stage }}</b></i></p>
      {% endif %}
 
      {% if post.paper-url %}
-     <p align="justify"><br />
+     <p align="justify">
      <a href="{{ post.paper-url }}">Click here for the latest version</a><br /></p>
      {% else %}
      <p align="justify"><br /></p>
