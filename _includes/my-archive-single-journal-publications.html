@@ -29,10 +29,10 @@
    {% if post.co-authors %}
    <p align="justify"><b>{{ post.title }}</b><br />
    <i>(Joint work with {{ post.co-authors }})</i><br />
-   <i><b>Current stage: {{ post.stage }}</b></i><br /></p>
+   <i><b>{{ post.stage }}</b></i><br /></p>
    {% else %}
    <p align="justify"><b>{{ post.title }}</b><br />
-   <i><b>Current stage: {{ post.stage }}</b></i><br /></p>
+   <i><b>{{ post.stage }}</b></i><br /></p>
    {% endif %}
    
 
