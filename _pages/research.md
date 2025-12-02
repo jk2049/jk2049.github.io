@@ -22,7 +22,7 @@ Journal Publications
 
 <hr>
 
-Work in Progress
+Work in Progresss
 
 {% for post in site.publications %}
   {% include my-archive-single.html %}
