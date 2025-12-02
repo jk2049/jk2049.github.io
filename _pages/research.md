@@ -14,6 +14,8 @@ author_profile: true
 
 <hr>
 
+Journal Publications
+
 {% for post in site.publications %}
   {% include my-archive-single.html %}
 {% endfor %}
