@@ -24,7 +24,7 @@ Journal Publications
 
 <hr>
 
-Work in Progresss
+Work in Progressss
 
 {% for post in site.publications %}
   {% if post.published == "no" %}
