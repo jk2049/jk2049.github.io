@@ -17,7 +17,7 @@ author_profile: true
 Journal Publications
 
 {% for post in site.publications %}
-  {% if post.published == "no" %}
+  {% if post.published == "yes" %}
     {% include my-archive-single.html %}
   {% endif %}
 {% endfor %}
