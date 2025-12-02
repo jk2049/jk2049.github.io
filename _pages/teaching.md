@@ -13,11 +13,11 @@ author_profile: true
 <i>Evaluation: 4.2/5</i><br /></p>
 
 <p align="justify"><b>Information Management</b> - BSc (2024-)<br />
-<i>Instructor</i><br />
+<i>Coordinator</i><br />
 <i>Evaluation: 4.4/5</i><br /></p>
 
 <p align="justify"><b>Digital Infrastructure and Business Innovation</b> - BSc (2024-)<br />
-<i>Instructor</i><br />
+<i>Coordinator</i><br />
 <i>Evaluation: 4.3/5</i><br /></p>
 
 <p align="justify"><b>Thesis Supervision</b> - MSc (2018-2023)<br />
