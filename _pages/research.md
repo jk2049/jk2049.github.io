@@ -24,6 +24,6 @@ Journal Publications
 
 Work in Progress
 
-{% for post in site.publications %}
-  {% include my-archive-single.html %}
+{% for post in site.publicationsjournal %}
+  {% include my-archive-single-journal-publications.html %}
 {% endfor %}
