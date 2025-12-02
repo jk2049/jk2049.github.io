@@ -17,7 +17,9 @@ author_profile: true
 Journal Publications
 
 {% for post in site.publications %}
-  {% include my-archive-single.html %}
+  {% if post.published == "no" %}
+    {% include my-archive-single.html %}
+  {% endif %}
 {% endfor %}
 
 <hr>
@@ -25,5 +27,7 @@ Journal Publications
 Work in Progresss
 
 {% for post in site.publications %}
-  {% include my-archive-single.html %}
+  {% if post.published == "no" %}
+    {% include my-archive-single.html %}
+  {% endif %}
 {% endfor %}
