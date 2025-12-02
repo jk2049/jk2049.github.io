@@ -14,7 +14,7 @@ author_profile: true
 
 <hr>
 
-<u>Journal Publications</u>
+<b><u>Journal Publications</u></b>
 
 {% for post in site.publications %}
   {% if post.published == "yes" %}
@@ -24,7 +24,7 @@ author_profile: true
 
 <hr>
 
-Work in Progress
+<b><u>Work in Progress</u></b>
 
 {% for post in site.publications %}
   {% if post.published == "no" %}
