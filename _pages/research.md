@@ -17,3 +17,9 @@ author_profile: true
 {% for post in site.publications %}
   {% include my-archive-single.html %}
 {% endfor %}
+
+<hr>
+
+{% for post in site.publications %}
+  {% include my-archive-single.html %}
+{% endfor %}
