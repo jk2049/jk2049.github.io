@@ -148,6 +148,7 @@ include:
   - _pages
   - files
 exclude:
+  - talkmap
   - markdown_generator
   - "*.sublime-project"
   - "*.sublime-workspace"
