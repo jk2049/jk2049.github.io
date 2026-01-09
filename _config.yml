@@ -148,6 +148,7 @@ include:
   - _pages
   - files
 exclude:
+  - markdown_generator
   - "*.sublime-project"
   - "*.sublime-workspace"
   - .asset-cache
